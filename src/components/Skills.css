@@ -1,0 +1,93 @@
+
+.skills-section {
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 200px;
+  text-align: left;
+}
+
+.proficiency-bar {
+  background: #eee;
+  border-radius: 4px;
+  height: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.proficiency-fill {
+  background: #f5c518;
+  border-radius: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.add-skill-button {
+  margin: 20px;
+}
+
+.add-skill-form {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.add-skill-form .form-group {
+  margin-bottom: 15px;
+}
+
+.Submit-button {
+  background: #f5c518;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.add-skill-form button:hover {
+  background: #d4a715;
+}
+
+.close-button {
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  padding: 5px;
+}
+
+.close-button:hover {
+  background-color: red;
+  color: white;
+}

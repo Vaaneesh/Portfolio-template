@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-commerce Website",
+      "description": "Leveraged Javascript to develop dynamic E-commerce website.",
+      "image": "http://localhost:3000/images/cartify.png",
+      "technologies": [
+        "Javascript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Manager",
+      "description": "The Task Manager built with Angular is a robust and dynamic application designed to streamline task organization, offering features like task creation, editing, categorization, and real-time updates to enhance productivity and efficiency.",
+      "image": "http://localhost:3000/images/TaskManager.png",
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Twitter Clone",
+      "description": "Developed the backend system for a Twitter clone application using Prisma, alongside Node.js and Express.js.",
+      "image": "http://localhost:3000/images/twiiter.png",
+      "technologies": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Prisma"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "1",
+      "rating": 5,
+      "title": "Outstanding Developer",
+      "comment": "Vaaneesh delivered an excellent project that exceeded expectations.",
+      "image": "http://localhost:3000/images/p1.jpg",
+      "name": "John Doe",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": "2",
+      "rating": 4,
+      "title": "Highly Recommend",
+      "comment": "Great to work with, very knowledgeable and professional.",
+      "image": "http://localhost:3000/images/p2.jpg",
+      "name": "Jane Smith",
+      "profession": "Product Manager"
+    },
+    {
+      "id": "3",
+      "rating": 5,
+      "title": "Creative and Efficient",
+      "comment": "Vaaneesh has a rare combination of creativity and efficiency. His designs are top-notch.",
+      "name": "Emily Johnson",
+      "profession": "UI/UX Designer",
+      "image": "http://localhost:3000/images/p3.avif"
+    },
+    {
+      "id": "4",
+      "rating": 5,
+      "title": "Highly Professional",
+      "comment": "Working with Vaaneesh was a seamless experience. He delivered high-quality work ahead of schedule.",
+      "name": "Michael Brown",
+      "profession": "CTO",
+      "image": "http://localhost:3000/images/p5.jpeg"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "domain": "Web Development",
+      "skill": "React",
+      "proficiency": 90
+    },
+    {
+      "id": "2",
+      "domain": "Web Development",
+      "skill": "Angular",
+      "proficiency": 80
+    },
+    {
+      "id": "dfa5",
+      "domain": "Web Development",
+      "skill": "Nodejs",
+      "proficiency": "75"
+    },
+    {
+      "id": "2c45",
+      "domain": "Web Development",
+      "skill": "Nextjs",
+      "proficiency": "80"
+    }
+  ],
+  "contactInfo": []
+}
